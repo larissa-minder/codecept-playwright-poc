@@ -6,7 +6,7 @@ Scenario('Login With valid user',  ({ I,}) => {
     I.doLogin('standard_user','secret_sauce' );
     I.see('Swag Labs', 'head > title')
 
-}).tag('critical').tag('mobile');
+}).tag('critical').tag('mobile').tag('tablet');
 
 
 Scenario('Select burger menu',  ({ I }) => {
