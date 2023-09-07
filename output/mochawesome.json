@@ -1,0 +1,426 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 4,
+    "passes": 3,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-09-07T09:21:52.512Z",
+    "end": "2023-09-07T09:22:04.192Z",
+    "duration": 11680,
+    "testsRegistered": 4,
+    "passPercent": 75,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d3fdaae2-b2f2-4f24-a4b2-97cabd269563",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b621647c-feb7-4ff9-8147-df927c80bef4",
+          "title": "account",
+          "fullFile": "C:\\codecept\\e2e\\account_test.ts",
+          "file": "\\e2e\\account_test.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"account\"",
+              "fullTitle": "account \"before all\" hook: codeceptjs.beforeSuite in \"account\"",
+              "timedOut": false,
+              "duration": 262,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "f2079963-5de0-47e3-8837-5ced2a627342",
+              "parentUUID": "b621647c-feb7-4ff9-8147-df927c80bef4",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"account\"",
+              "fullTitle": "account \"before each\" hook: codeceptjs.before in \"account\"",
+              "timedOut": false,
+              "duration": 182,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "8ef47364-21d7-4968-b55b-98649fd5864f",
+              "parentUUID": "b621647c-feb7-4ff9-8147-df927c80bef4",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"account\"",
+              "fullTitle": "account \"after all\" hook: codeceptjs.afterSuite in \"account\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "1e23a4f8-3d51-40aa-8645-b6be1cd99a38",
+              "parentUUID": "b621647c-feb7-4ff9-8147-df927c80bef4",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"account\"",
+              "fullTitle": "account \"after each\" hook: finalize codeceptjs in \"account\"",
+              "timedOut": false,
+              "duration": 89,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "cbc526d1-c2b1-4bc9-820d-3052f7ee81cf",
+              "parentUUID": "b621647c-feb7-4ff9-8147-df927c80bef4",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "test something",
+              "fullTitle": "account: test something",
+              "timedOut": false,
+              "duration": 21,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {",
+              "err": {},
+              "uuid": "fb5c1962-8f1f-4be1-9320-99fae72a1836",
+              "parentUUID": "b621647c-feb7-4ff9-8147-df927c80bef4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fb5c1962-8f1f-4be1-9320-99fae72a1836"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 21,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "c696b911-8660-4c9e-9b03-f4c0b90d5f78",
+          "title": "login",
+          "fullFile": "C:\\codecept\\e2e\\login_test.ts",
+          "file": "\\e2e\\login_test.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"login\"",
+              "fullTitle": "login \"before all\" hook: codeceptjs.beforeSuite in \"login\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "5062bfd7-9b78-4e08-be90-d2de916065ab",
+              "parentUUID": "c696b911-8660-4c9e-9b03-f4c0b90d5f78",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"login\"",
+              "fullTitle": "login \"before each\" hook: codeceptjs.before in \"login\"",
+              "timedOut": false,
+              "duration": 570,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "9feca971-2c01-4f62-80a2-8b8c6231c074",
+              "parentUUID": "c696b911-8660-4c9e-9b03-f4c0b90d5f78",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"login\"",
+              "fullTitle": "login \"after all\" hook: codeceptjs.afterSuite in \"login\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "47007659-3aa7-407d-9ced-65f35592093d",
+              "parentUUID": "c696b911-8660-4c9e-9b03-f4c0b90d5f78",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"login\"",
+              "fullTitle": "login \"after each\" hook: finalize codeceptjs in \"login\"",
+              "timedOut": false,
+              "duration": 48,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "95b00d91-9e57-4a87-929b-f709cae6bb6a",
+              "parentUUID": "c696b911-8660-4c9e-9b03-f4c0b90d5f78",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Login With valid user",
+              "fullTitle": "login: Login With valid user",
+              "timedOut": false,
+              "duration": 6794,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "I, }) => {\n    I.doLogin('standard_user', 'secret_sauce');\n    I.see('Swag Labszzzz', 'head > title');",
+              "err": {
+                "message": null,
+                "estack": null,
+                "diff": "- Swag Labs\n+ Swag Labszzzz\n"
+              },
+              "uuid": "3807a36e-ec90-412d-8a8f-c8edb938f6ce",
+              "parentUUID": "c696b911-8660-4c9e-9b03-f4c0b90d5f78",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Select burger menu",
+              "fullTitle": "login: Select burger menu",
+              "timedOut": false,
+              "duration": 2473,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n    I.doLogin('standard_user', 'secret_sauce');\n    I.click('#react-burger-menu-btn');\n    I.click('#about_sidebar_link');\n    I.see('The world relies on your code. Test on thousands of different device, browser, and OS configurations–anywhere, any time.', '.MuiBox-root.css-4q1zgn');",
+              "err": {},
+              "uuid": "1f6cf5b6-2807-44d7-8160-4eec61840dca",
+              "parentUUID": "c696b911-8660-4c9e-9b03-f4c0b90d5f78",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1f6cf5b6-2807-44d7-8160-4eec61840dca"
+          ],
+          "failures": [
+            "3807a36e-ec90-412d-8a8f-c8edb938f6ce"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 9267,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        },
+        {
+          "uuid": "142305e3-2f12-42ad-91d6-198d3eb86bb0",
+          "title": "pokemon_api",
+          "fullFile": "C:\\codecept\\e2e\\pokemon_api_test.ts",
+          "file": "\\e2e\\pokemon_api_test.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"pokemon_api\"",
+              "fullTitle": "pokemon_api \"before all\" hook: codeceptjs.beforeSuite in \"pokemon_api\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "982a6302-3e45-46df-8e9b-f782074a2bd0",
+              "parentUUID": "142305e3-2f12-42ad-91d6-198d3eb86bb0",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"pokemon_api\"",
+              "fullTitle": "pokemon_api \"before each\" hook: codeceptjs.before in \"pokemon_api\"",
+              "timedOut": false,
+              "duration": 457,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "4e90d147-058c-40bb-8ef8-1df2ffd6cab5",
+              "parentUUID": "142305e3-2f12-42ad-91d6-198d3eb86bb0",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"pokemon_api\"",
+              "fullTitle": "pokemon_api \"after all\" hook: codeceptjs.afterSuite in \"pokemon_api\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "f0d749f1-7602-4bd2-a6f2-903c24561a5e",
+              "parentUUID": "142305e3-2f12-42ad-91d6-198d3eb86bb0",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"pokemon_api\"",
+              "fullTitle": "pokemon_api \"after each\" hook: finalize codeceptjs in \"pokemon_api\"",
+              "timedOut": false,
+              "duration": 87,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "eb9bb6b8-dd9c-47ba-a774-b4f3e1b466c0",
+              "parentUUID": "142305e3-2f12-42ad-91d6-198d3eb86bb0",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "get pikachu",
+              "fullTitle": "pokemon_api: get pikachu",
+              "timedOut": false,
+              "duration": 95,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n    I.getByHelper('pikachu');",
+              "err": {},
+              "uuid": "b926e716-0a06-4336-a573-0e96e0830218",
+              "parentUUID": "142305e3-2f12-42ad-91d6-198d3eb86bb0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b926e716-0a06-4336-a573-0e96e0830218"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 95,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "output"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
