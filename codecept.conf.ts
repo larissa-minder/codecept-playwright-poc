@@ -15,7 +15,7 @@ export const config: CodeceptJS.MainConfig = {
   helpers: {
     Playwright: {
       browser: 'chromium',
-      url: 'https://www.saucedemo.com',
+      url: 'https://mindera.com',
       show: false
     },
     REST: {
@@ -23,7 +23,12 @@ export const config: CodeceptJS.MainConfig = {
     },
     JSONResponse: {
       requestHelper: 'REST'
-    }
+    },
+    LighthouseHelper: {
+      require: 'codeceptjs-lighthouse-helper',
+    },
+    
+
   },
   Mochawesome: {
     "uniqueScreenshotNames": true
@@ -31,6 +36,7 @@ export const config: CodeceptJS.MainConfig = {
   include: {
     I: './support/steps_file',
     loginPage: './pages/login.ts',
+    registerPage: "./pages/register.ts",
   },
   mocha: {
     "reporterOptions": {
@@ -38,5 +44,7 @@ export const config: CodeceptJS.MainConfig = {
     }
   },
   name: 'codecept',
-
+  lighthouse: {
+    require: 'playwright-lighthouse',
+  }
 }
