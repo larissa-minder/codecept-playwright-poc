@@ -23,14 +23,7 @@ export const config: CodeceptJS.MainConfig = {
     },
     JSONResponse: {
       requestHelper: 'REST'
-    },
-    LighthouseHelper: {
-      require: 'codeceptjs-lighthouse-helper',
-    },
-    lighthouse: {
-      require: 'playwright-lighthouse',
     }
-
   },
   Mochawesome: {
     "uniqueScreenshotNames": true
