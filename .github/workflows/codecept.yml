@@ -28,3 +28,13 @@ jobs:
           name: codecept-report
           path: output/
           retention-days: 30
+          
+      - name: Run performance tests
+        run: npm run test:ct
+        
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: lighthouse-report
+          path: .lighthouseci/
+          retention-days: 30
