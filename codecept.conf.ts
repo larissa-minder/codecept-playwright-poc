@@ -27,7 +27,9 @@ export const config: CodeceptJS.MainConfig = {
     LighthouseHelper: {
       require: 'codeceptjs-lighthouse-helper',
     },
-    
+    lighthouse: {
+      require: 'playwright-lighthouse',
+    }
 
   },
   Mochawesome: {
@@ -44,7 +46,5 @@ export const config: CodeceptJS.MainConfig = {
     }
   },
   name: 'codecept',
-  lighthouse: {
-    require: 'playwright-lighthouse',
-  }
+  
 }

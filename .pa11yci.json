@@ -1,0 +1,36 @@
+{
+    "defaults": {
+      "timeout": 10000,
+      "level": "error",
+      "threshold": 1,
+      "viewport": {
+        "width": 1280,
+        "height": 1024
+      },
+      "chromeLaunchConfig": {
+        "args": ["--no-sandbox"]
+      },
+      "standard": "WCAG2AA",
+      "ignore": [
+        "color-contrast",
+        "frame-tested"
+      ],
+      "runners": ["axe"],
+      "reporters": [
+        [
+          "pa11y-ci-reporter-html",
+          {
+            "destination": "./tests_output",
+            "includeZeroIssues": true
+          }
+        ],
+        "cli"
+      ]
+    },
+    "urls": [
+      "https://mindera.com/",
+      "https://mindera.com/services/",
+      "https://mindera.com/careers/"
+    ]
+  }
+  
