@@ -15,7 +15,7 @@ export const config: CodeceptJS.MainConfig = {
   helpers: {
     Playwright: {
       browser: 'chromium',
-      url: 'https://mindera.com',
+      url: 'https://www.saucedemo.com',
       show: false
     },
     REST: {

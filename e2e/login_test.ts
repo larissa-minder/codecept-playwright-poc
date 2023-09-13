@@ -1,6 +1,6 @@
 Feature('Main Page');
 
-Scenario('Login With valid user ',  ({ I, loginPage}) => {
+Scenario('Login With valid user ',  ({ I}) => {
     
     I.doLogin('standard_user','secret_sauce' );
     I.see('Swag Labs', 'head > title')
